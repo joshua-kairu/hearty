@@ -35,8 +35,6 @@
 
     android:layout_height="match_parent"
 
-    android:onClick="animateHeartBottom"
-
     tools:context=".MainActivity"
 
     android:padding="@dimen/layout_padding"
@@ -73,9 +71,11 @@
 
         android:layout_height="wrap_content"
 
-        android:id="@+id/am_b_top_left"
+        android:id="@+id/am_ib_top_left"
 
         android:src="@drawable/ic_arrow_bottom_right_24px"
+
+        android:contentDescription="@string/fill_top_left_description"
 
         />
 
@@ -87,11 +87,13 @@
 
         android:layout_height="wrap_content"
 
-        android:id="@+id/am_b_top"
+        android:id="@+id/am_ib_top"
 
         android:src="@drawable/ic_arrow_bottom_24px"
 
         android:layout_centerHorizontal="true"
+
+        android:contentDescription="@string/fill_top_description"
 
         />
 
@@ -103,13 +105,15 @@
 
         android:layout_height="wrap_content"
 
-        android:id="@+id/am_b_top_right"
+        android:id="@+id/am_ib_top_right"
 
         android:src="@drawable/ic_arrow_bottom_left_24px"
 
         android:layout_alignParentRight="true"
 
         android:layout_alignParentEnd="true"
+
+        android:contentDescription="@string/fill_top_right_description"
 
         />
 
@@ -121,7 +125,7 @@
 
         android:layout_height="wrap_content"
 
-        android:id="@+id/am_b_right"
+        android:id="@+id/am_ib_right"
 
         android:src="@drawable/ic_arrow_left_24px"
 
@@ -130,6 +134,8 @@
         android:layout_alignParentRight="true"
 
         android:layout_alignParentEnd="true"
+
+        android:contentDescription="@string/fill_right_description"
 
         />
 
@@ -141,7 +147,7 @@
 
         android:layout_height="wrap_content"
 
-        android:id="@+id/am_b_bottom_right"
+        android:id="@+id/am_ib_bottom_right"
 
         android:src="@drawable/ic_arrow_top_left_24px"
 
@@ -150,6 +156,8 @@
         android:layout_alignParentEnd="true"
 
         android:layout_alignParentBottom="true"
+
+        android:contentDescription="@string/fill_bottom_right_description"
 
         />
 
@@ -161,13 +169,15 @@
 
         android:layout_height="wrap_content"
 
-        android:id="@+id/am_b_bottom"
+        android:id="@+id/am_ib_bottom"
 
         android:src="@drawable/ic_arrow_top_24px"
 
         android:layout_centerHorizontal="true"
 
         android:layout_alignParentBottom="true"
+
+        android:contentDescription="@string/fill_bottom_description"
 
         />
 
@@ -179,11 +189,13 @@
 
         android:layout_height="wrap_content"
 
-        android:id="@+id/am_b_bottom_left"
+        android:id="@+id/am_ib_bottom_left"
 
         android:src="@drawable/ic_arrow_top_right_24px"
 
         android:layout_alignParentBottom="true"
+
+        android:contentDescription="@string/fill_bottom_left_description"
 
         />
 
@@ -195,15 +207,13 @@
 
         android:layout_height="wrap_content"
 
-        android:id="@+id/am_b_left"
+        android:id="@+id/am_ib_left"
 
         android:src="@drawable/ic_arrow_right_24px"
 
         android:layout_centerVertical="true"
 
-        />
-
-
+        android:contentDescription="@string/fill_left_description"
 
         />
 

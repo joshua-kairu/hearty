@@ -55,15 +55,85 @@
 
     <!-- clip paths -->
 
-    <!-- clip from bottom -->
+    <!--&lt;!&ndash; clip from top left &ndash;&gt;-->
+
+    <!--<clip-path-->
+
+        <!--android:name="@string/path_name_heart_clip_top_left"-->
+
+        <!--android:pathData="@string/path_data_heart_clip_hidden_top_left"-->
+
+        <!--/>-->
+
+    <!--&lt;!&ndash; clip from top &ndash;&gt;-->
+
+    <!--<clip-path-->
+
+        <!--android:name="@string/path_name_heart_clip_top"-->
+
+        <!--android:pathData="@string/path_data_heart_clip_hidden_top"-->
+
+        <!--/>-->
+
+    <!--&lt;!&ndash; clip from top right &ndash;&gt;-->
+
+    <!--<clip-path-->
+
+        <!--android:name="@string/path_name_heart_clip_top_right"-->
+
+        <!--android:pathData="@string/path_data_heart_clip_hidden_top_right"-->
+
+        <!--/>-->
+
+    <!--&lt;!&ndash; clip from right &ndash;&gt;-->
+
+    <!--<clip-path-->
+
+        <!--android:name="@string/path_name_heart_clip_right"-->
+
+        <!--android:pathData="@string/path_data_heart_clip_hidden_right"-->
+
+        <!--/>-->
+
+    <!--&lt;!&ndash; clip from bottom right &ndash;&gt;-->
+
+    <!--<clip-path-->
+
+        <!--android:name="@string/path_name_heart_clip_bottom_right"-->
+
+        <!--android:pathData="@string/path_data_heart_clip_hidden_bottom_right"-->
+
+        <!--/>-->
+
+    <!--&lt;!&ndash; clip from bottom &ndash;&gt;-->
+
+    <!--<clip-path-->
+
+        <!--android:name="@string/path_name_heart_clip_bottom"-->
+
+        <!--android:pathData="@string/path_data_heart_clip_hidden_bottom"-->
+
+        <!--/>-->
+
+    <!-- clip from bottom left -->
 
     <clip-path
 
-        android:name="@string/path_name_heart_clip_bottom"
+        android:name="@string/path_name_heart_clip_bottom_left"
 
-        android:pathData="@string/path_data_heart_clip_hidden_bottom"
+        android:pathData="@string/path_data_heart_clip_hidden_bottom_left"
 
         />
+
+    <!--&lt;!&ndash; clip from left &ndash;&gt;-->
+
+    <!--<clip-path-->
+
+        <!--android:name="@string/path_name_heart_clip_left"-->
+
+        <!--android:pathData="@string/path_data_heart_clip_hidden_left"-->
+
+        <!--/>-->
 
     <!-- full path -->
 

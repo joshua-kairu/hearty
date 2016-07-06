@@ -35,9 +35,9 @@
 
     <target
 
-        android:animation="@animator/empty_to_bottom_left"
+        android:animation="@animator/empty_to_left"
 
-        android:name="@string/path_name_heart_clip_bottom_left"
+        android:name="@string/path_name_heart_clip_left"
 
         />
 

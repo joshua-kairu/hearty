@@ -35,9 +35,9 @@
 
     <target
 
-        android:animation="@animator/fill_from_bottom_right"
+        android:animation="@animator/fill_from_right"
 
-        android:name="@string/path_name_heart_clip_bottom_right"
+        android:name="@string/path_name_heart_clip_right"
 
         />
 

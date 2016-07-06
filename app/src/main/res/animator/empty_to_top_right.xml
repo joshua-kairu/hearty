@@ -23,7 +23,7 @@
 
  -->
 
-<!-- animate an emptying of the heart to the bottom -->
+<!-- animate an emptying of the heart to the top right -->
 
 <objectAnimator
 
@@ -31,9 +31,9 @@
 
     android:propertyName="pathData"
 
-    android:valueFrom="@string/path_data_heart_clip_shown_rectangle"
+    android:valueFrom="@string/path_data_heart_clip_shown_triangle_top_right"
 
-    android:valueTo="@string/path_data_heart_clip_hidden_bottom"
+    android:valueTo="@string/path_data_heart_clip_hidden_top_right"
 
     android:duration="@integer/animation_time_heart_empty"
 
