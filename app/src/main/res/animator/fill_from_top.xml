@@ -31,7 +31,7 @@
 
     android:propertyName="pathData"
 
-    android:valueFrom="@string/path_data_heart_clip_hidden_bottom"
+    android:valueFrom="@string/path_data_heart_clip_hidden_top"
 
     android:valueTo="@string/path_data_heart_clip_shown_rectangle"
 

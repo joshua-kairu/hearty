@@ -2,6 +2,7 @@ package com.jlt.hearty;
 
 import android.app.Activity;
 import android.graphics.drawable.AnimatedVectorDrawable;
+import android.graphics.drawable.VectorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
@@ -100,6 +101,17 @@ public class MainActivity extends Activity {
 
     private boolean heartFull; // tracks the fill of the heart
 
+    /* Vector Drawables */
+    
+    private VectorDrawable topLeftHeartVectorDrawable; // for animating via top left
+    private VectorDrawable topHeartVectorDrawable; // for animating via top
+    private VectorDrawable topRightHeartVectorDrawable; // for animating via top right
+    private VectorDrawable rightHeartVectorDrawable; // for animating via right
+    private VectorDrawable bottomRightHeartVectorDrawable; // for animating via bottom right
+    private VectorDrawable bottomHeartVectorDrawable; // for animating via bottom
+    private VectorDrawable bottomLeftHeartVectorDrawable; // for animating via bottom left
+    private VectorDrawable leftHeartVectorDrawable; // for animating via left
+    
     /** METHODS */
 
     /** Getters and Setters */

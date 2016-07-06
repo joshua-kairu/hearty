@@ -7,38 +7,74 @@
  Simple demonstration of Android vector clip path capabilities
 
  Copyright (C) 2016 Kairu Joshua Wambugu
- 
+
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation, either version 3 of the License, or
  (at your option) any later version.
- 
+
  This program is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
- 
+
  You should have received a copy of the GNU General Public License
  along with this program.  If not, see http://www.gnu.org/licenses/.
 
  -->
 
-<!-- Fill the heart from the right -->
+<!-- The heart, empty, full, and clip for top right animation -->
 
-<animated-vector
+<vector
 
     xmlns:android="http://schemas.android.com/apk/res/android"
 
-    android:drawable="@drawable/ic_heart_right"
+    android:width="280dp"
+
+    android:height="280dp"
+
+    android:viewportWidth="56"
+
+    android:viewportHeight="56"
 
     >
 
-    <target
+    <!-- paths -->
 
-        android:animation="@animator/fill_from_right"
+    <!-- empty path -->
 
-        android:name="@string/path_name_heart_clip_right"
+    <path
+
+        android:name="@string/path_name_heart_empty"
+
+        android:pathData="@string/path_data_heart_empty"
+
+        android:fillColor="@color/colorPrimary"
 
         />
 
-</animated-vector>
+    <!-- clip paths -->
+
+    <!-- clip from top right -->
+
+    <clip-path
+
+        android:name="@string/path_name_heart_clip_top_right"
+
+        android:pathData="@string/path_data_heart_clip_hidden_top_right"
+
+        />
+
+    <!-- full path -->
+
+    <path
+
+        android:name="@string/path_name_heart_full"
+
+        android:pathData="@string/path_data_heart_full"
+
+        android:fillColor="@color/colorPrimary"
+
+        />
+
+</vector>

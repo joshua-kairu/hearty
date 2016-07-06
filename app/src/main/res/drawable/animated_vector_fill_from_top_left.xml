@@ -29,7 +29,7 @@
 
     xmlns:android="http://schemas.android.com/apk/res/android"
 
-    android:drawable="@drawable/ic_heart"
+    android:drawable="@drawable/ic_heart_top_left"
 
     >
 

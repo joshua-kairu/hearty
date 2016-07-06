@@ -53,7 +53,7 @@
 
         android:layout_gravity="center"
 
-        android:src="@drawable/ic_heart"
+        android:src="@drawable/ic_heart_bottom"
 
         android:layout_centerInParent="true"
 
