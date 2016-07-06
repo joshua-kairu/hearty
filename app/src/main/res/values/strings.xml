@@ -1,0 +1,112 @@
+<!--
+
+ Hearty
+
+ Simple demonstration of Android vector clip path capabilities
+
+ Copyright (C) 2016 Kairu Joshua Wambugu
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see http://www.gnu.org/licenses/.
+
+-->
+
+<!-- The strings -->
+
+<resources>
+
+    <string name="app_name">Hearty</string>
+
+    <string name="heart_description">The Heart</string>
+
+    <string name="fill_bottom_description">Fill from bottom</string>
+
+    <string name="empty_bottom_description">Empty to bottom</string>
+
+    <string name="fill_top_left_description">Fill from top left</string>
+
+    <string name="empty_top_left_description">Empty to top left</string>
+
+    <string name="fill_top_description">Fill from top</string>
+
+    <string name="empty_top_description">Empty to top</string>
+
+    <string name="fill_top_right_description">Fill from top right</string>
+
+    <string name="empty_top_right_description">Empty to top right</string>
+
+    <string name="fill_right_description">Fill from right</string>
+
+    <string name="empty_right_description">Empty to right</string>
+
+    <string name="fill_bottom_right_description">Fill from bottom right</string>
+
+    <string name="empty_bottom_right_description">Empty to bottom right</string>
+
+    <string name="fill_bottom_left_description">Fill from bottom left</string>
+
+    <string name="empty_bottom_left_description">Empty to bottom left</string>
+
+    <string name="fill_left_description">Fill from left</string>
+
+    <string name="empty_left_description">Empty to left</string>
+
+    <!-- geometry -->
+
+    <string name="path_data_heart_empty">M32.95,19 C31.036,19 29.199,19.8828338 28,21.2724796 C26.801,19.8828338 24.964,19 23.05,19 C19.6565,19 17,21.6321526 17,24.9945504 C17,29.1089918 20.74,32.4713896 26.405,37.5667575 L28,39 L29.595,37.5667575 C35.26,32.4713896 39,29.1089918 39,24.9945504 C39,21.6321526 36.3435,19 32.95,19 L32.95,19 Z M28.1155,35.9536785 L28,36.0572207 L27.8845,35.9536785 C22.654,31.2506812 19.2,28.1444142 19.2,24.9945504 C19.2,22.8201635 20.8555,21.1798365 23.05,21.1798365 C24.744,21.1798365 26.394,22.2643052 26.9715,23.7520436 L29.023,23.7520436 C29.606,22.2643052 31.256,21.1798365 32.95,21.1798365 C35.1445,21.1798365 36.8,22.8201635 36.8,24.9945504 C36.8,28.1444142 33.346,31.2506812 28.1155,35.9536785 L28.1155,35.9536785 Z</string>
+
+    <string name="path_data_heart_full">M28,39 L26.405,37.5667575 C20.74,32.4713896 17,29.1089918 17,24.9945504 C17,21.6321526 19.6565,19 23.05,19 C24.964,19 26.801,19.8828338 28,21.2724796 C29.199,19.8828338 31.036,19 32.95,19 C36.3435,19 39,21.6321526 39,24.9945504 C39,29.1089918 35.26,32.4713896 29.595,37.5667575 L28,39 L28,39 Z</string>
+
+    <string name="path_data_heart_clip_hidden_bottom">M18 37 L38 37 L38 37 L18 37 Z</string>
+
+    <string name="path_data_heart_clip_hidden_top">M18 0 L38 0 L38 0 L18 0 Z</string>
+
+    <string name="path_data_heart_clip_hidden_left">M18 0 L18 0 L18 37 L18 37 Z</string>
+
+    <string name="path_data_heart_clip_hidden_right">M38 0 L38 0 L38 37 L38 37 Z</string>
+
+    <string name="path_data_heart_clip_hidden_top_left">M0 0 L0 0 L0 0 L0 0 Z</string>
+
+    <string name="path_data_heart_clip_hidden_top_right">M38 0 L38 0 L38 0 L38 0 Z</string>
+
+    <string name="path_data_heart_clip_hidden_bottom_right">M38 37 L38 37 L38 37 L38 37 Z</string>
+
+    <string name="path_data_heart_clip_hidden_bottom_left">M0 37 L0 37 L0 37 L0 37 Z</string>
+
+    <string name="path_data_heart_clip_shown_rectangle">M0 0 L56 0 L56 56 L0 56 Z</string>
+
+    <string name="path_data_heart_clip_shown_rhombus">M56 0 L0 56 L56 112 L112 56 Z</string>
+
+    <!-- path names -->
+
+    <string name="path_name_heart_empty">empty</string>
+
+    <string name="path_name_heart_full">full</string>
+
+    <string name="path_name_heart_clip_bottom">clip bottom</string>
+
+    <string name="path_name_heart_clip_top_left">clip top left</string>
+
+    <string name="path_name_heart_clip_top">clip top</string>
+
+    <string name="path_name_heart_clip_top_right">clip top right</string>
+
+    <string name="path_name_heart_clip_right">clip right</string>
+
+    <string name="path_name_heart_clip_bottom_right">clip bottom right</string>
+
+    <string name="path_name_heart_clip_bottom_left">clip bottom left</string>
+
+    <string name="path_name_heart_clip_left">clip left</string>
+
+</resources>

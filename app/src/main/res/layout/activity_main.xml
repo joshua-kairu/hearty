@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+ Hearty
+
+ Simple demonstration of Android vector clip path capabilities
+
+ Copyright (C) 2016 Kairu Joshua Wambugu
+ 
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see http://www.gnu.org/licenses/.
+
+ -->
+
+<!-- The main layout -->
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:onClick="animateHeartBottom"
+
+    tools:context=".MainActivity"
+
+    android:padding="@dimen/layout_padding"
+
+    >
+
+    <!-- ImageView for the heart -->
+
+    <ImageView
+
+        android:id="@+id/am_iv_heart"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+
+        android:src="@drawable/ic_heart"
+
+        android:layout_centerInParent="true"
+
+        android:contentDescription="@string/heart_description"
+
+        />
+
+    <!-- Button are id'd by their location on screen -->
+
+    <!-- ImageButton for un/filling from top left to bottom right -->
+
+    <ImageButton
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:id="@+id/am_b_top_left"
+
+        android:src="@drawable/ic_arrow_bottom_right_24px"
+
+        />
+
+    <!-- ImageButton for un/filling from top to bottom -->
+
+    <ImageButton
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:id="@+id/am_b_top"
+
+        android:src="@drawable/ic_arrow_bottom_24px"
+
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <!-- ImageButton for un/filling from top right to bottom left -->
+
+    <ImageButton
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:id="@+id/am_b_top_right"
+
+        android:src="@drawable/ic_arrow_bottom_left_24px"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_alignParentEnd="true"
+
+        />
+
+    <!-- ImageButton for un/filling from right to left -->
+
+    <ImageButton
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:id="@+id/am_b_right"
+
+        android:src="@drawable/ic_arrow_left_24px"
+
+        android:layout_centerVertical="true"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_alignParentEnd="true"
+
+        />
+
+    <!-- ImageButton for un/filling from bottom right to top left -->
+
+    <ImageButton
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:id="@+id/am_b_bottom_right"
+
+        android:src="@drawable/ic_arrow_top_left_24px"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentBottom="true"
+
+        />
+
+    <!-- ImageButton for un/filling from bottom to top -->
+
+    <ImageButton
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:id="@+id/am_b_bottom"
+
+        android:src="@drawable/ic_arrow_top_24px"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_alignParentBottom="true"
+
+        />
+
+    <!-- ImageButton for un/filling from bottom left to top right -->
+
+    <ImageButton
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:id="@+id/am_b_bottom_left"
+
+        android:src="@drawable/ic_arrow_top_right_24px"
+
+        android:layout_alignParentBottom="true"
+
+        />
+
+    <!-- ImageButton for un/filling from left to right -->
+
+    <ImageButton
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:id="@+id/am_b_left"
+
+        android:src="@drawable/ic_arrow_right_24px"
+
+        android:layout_centerVertical="true"
+
+        />
+
+
+
+        />
+
+</RelativeLayout>

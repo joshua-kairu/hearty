@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+ Hearty
+
+ Simple demonstration of Android vector clip path capabilities
+
+ Copyright (C) 2016 Kairu Joshua Wambugu
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see http://www.gnu.org/licenses/.
+
+ -->
+
+<!-- The heart, empty, full, and clip -->
+
+<vector
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:width="280dp"
+
+    android:height="280dp"
+
+    android:viewportWidth="56"
+
+    android:viewportHeight="56"
+
+    >
+
+    <!-- paths -->
+
+    <!-- empty path -->
+
+    <path
+
+        android:name="@string/path_name_heart_empty"
+
+        android:pathData="@string/path_data_heart_empty"
+
+        android:fillColor="@color/colorPrimary"
+
+        />
+
+    <!-- clip paths -->
+
+    <!-- clip from bottom -->
+
+    <clip-path
+
+        android:name="@string/path_name_heart_clip_bottom"
+
+        android:pathData="@string/path_data_heart_clip_hidden_bottom"
+
+        />
+
+    <!-- full path -->
+
+    <path
+
+        android:name="@string/path_name_heart_full"
+
+        android:pathData="@string/path_data_heart_full"
+
+        android:fillColor="@color/colorPrimary"
+
+        />
+
+</vector>
